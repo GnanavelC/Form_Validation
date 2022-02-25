@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Validation</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form action="" class="form" id="form">
+            <div class="form_control">
+                <label for="">Username</label>
+                <input type="text" placeholder="Enter valid username" id="username">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form_control">
+                <label for="">Email</label>
+                <input type="email" placeholder="xxx@email.com" id="email">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form_control">
+                <label for="">Password</label>
+                <input type="password" placeholder="password" id="password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form_control">
+                <label for="">Confirm Password</label>
+                <input type="password" placeholder="confirm password" id="password2">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="./jscript.js"></script>
+</body>
+
+</html>
